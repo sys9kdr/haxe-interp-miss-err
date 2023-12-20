@@ -1,5 +1,3 @@
-import JsonLoadMacro.listData;
-
 final main = () -> {
-	trace(listData());
+	trace([1, 2, 'wrong']);
 }
